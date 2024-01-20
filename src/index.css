@@ -1,0 +1,55 @@
+body{
+
+  margin: 0px;
+
+}
+
+.active{
+  color: red;
+}
+
+.nav {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.magmar{
+  width: 600px;
+  height: 600px;
+}
+
+
+.pokemones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+
+}
+
+
+
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  margin-top: 10px;
+}
