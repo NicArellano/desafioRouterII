@@ -10,7 +10,7 @@ const Pokemones = () => {
 
   const navigate = useNavigate();
   const goPokeDetails = () => {
-    navigate(`pokemones/${pokeName}`);
+    navigate(`${pokeName}`);
   };
 
   useEffect(() => {

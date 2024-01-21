@@ -28,9 +28,9 @@ useEffect(() => {
 
 
   return (
-    <div>
-        <Card style={{ width: '18rem' }}>
-      {/* <Card.Img variant="top" src={pokemon.sprites.front_default}  /> */}
+    <div className='card'>
+        <Card className='cardIn' style={{ width: '18rem '  }}>
+      <Card.Img variant="top" src={pokemon.sprites?.front_default}  />
       <Card.Body>
         <Card.Title>{pokemon.name}</Card.Title>
         <Card.Text>
